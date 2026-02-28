@@ -9,12 +9,16 @@ class Screen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      backgroundColor: Colors.red,
-      body: Center(
+    return Container(
+      color: Colors.teal,
+      child: const Center(
         child: Text(
           'comp3130',
-          style: TextStyle(fontSize: 30, color: Colors.white),
+          style: TextStyle(
+            fontFamily: 'BebasNeue',
+            fontSize: 80, 
+            color: Colors.white
+            ),
         ),
       ),
     
