@@ -9,7 +9,15 @@ class Screen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('This is my bar for comp3130'),
+        backgroundColor: Colors.red,
+        centerTitle: true,
+    ),
+
+    body: Container(
       color: Colors.teal,
       child: const Center(
         child: Text(
@@ -22,6 +30,7 @@ class Screen extends StatelessWidget {
         ),
       ),
     
+    )
     );
   }
 }
