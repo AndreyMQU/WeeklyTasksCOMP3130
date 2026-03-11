@@ -1,0 +1,1 @@
+Created a 2 page app using figma based off the refrence provided in the practical page, made gif and downloaded figma
